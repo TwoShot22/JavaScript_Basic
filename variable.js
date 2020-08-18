@@ -17,6 +17,9 @@ console.log(name);
 console.log(globalName);
 
 // 3. Constants
+// Immutable Data Types : primitive types, frozen objects (i.e. object.freeze())
+// Mutable Data Types : all objects by default are mutable in JS
+
 // favor immutable data type always for a few reasons:
 // - security
 // - thread safety
