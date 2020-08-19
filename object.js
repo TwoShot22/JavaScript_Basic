@@ -97,6 +97,6 @@ console.log(user4);
 // another example
 const fruit1 = { color: 'red' };
 const fruit2 = { color: 'blue', size: 'big' };
-const mixed = Object.assign({}, fruit1, fruit2);
+const mixed = Object.assign({}, fruit1, fruit2); // 뒤에 있는 Object의 Property를 덮어 쓰는 방식
 console.log(mixed.color);
 console.log(mixed.size);
